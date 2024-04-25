@@ -1,4 +1,4 @@
-FROM nginx:1.21.1
+FROM docker.io/library/nginx:1.21.1
 
 COPY ./index.html /usr/share/nginx/html/index.html
 
